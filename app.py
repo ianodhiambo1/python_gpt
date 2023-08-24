@@ -1,7 +1,7 @@
 import openai
 
 def askgpt(text):
-    openai.api_key = "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"
+    openai.api_key = ""
     response = openai.Completion.create(
         engine = "text-davinci-003",
         prompt = text,
